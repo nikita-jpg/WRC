@@ -1,4 +1,4 @@
-import { Col, Row } from "antd";
+import { Col, Row, Typography } from "antd";
 import axios from "axios";
 
 import {
@@ -21,6 +21,7 @@ import {
 } from "../../controllers/getThreePhase";
 
 import "./ThreePhase.scss";
+import { GOST } from "../../consts";
 
 ChartJS.register(
     CategoryScale,
@@ -42,6 +43,8 @@ type ThreePhaseLine = {
 export type ThreePhaseCharLine = {
     voltage: ThreePhaseLine[];
     amperage: ThreePhaseLine[];
+    cosinusF?: ThreePhaseLine[];
+    power?: ThreePhaseLine[];
 };
 
 const getCharLineDate = (
@@ -101,17 +104,79 @@ const mapGetThreePhaseToChartLine = (data: GetThreePhaseResponce[]) => {
     return res;
 };
 
+const generateCosinusF = (dateTime: Date[]) => {
+    return dateTime.map((el) => ({
+        dateTime: el,
+        value: Number(Math.random().toFixed(3)),
+    }));
+};
+
+const generatePower = (dateTime: Date[]) => {
+    return dateTime.map((el) => ({
+        dateTime: el,
+        value: Number(Math.random().toFixed(3)),
+    }));
+};
+
 export const ThreePhase = () => {
     const [singlaPhase, setThreePhase] = useState<ThreePhaseCharLine>();
+    const { Title } = Typography;
 
     const requestGetData = async () => {
         const data = await getThreePhase();
 
         if (data) {
             const normaldata = mapGetThreePhaseToChartLine(data);
-            setThreePhase(normaldata);
 
-            // console.log(normaldata);
+            const cosinusF = {
+                label: "cosinusF",
+                data: generateCosinusF(
+                    normaldata.amperage[0].data.map((el) => el.dateTime)
+                ),
+            };
+
+            let power = [];
+            let colors = [
+                {
+                    borderColor: "rgba(255, 5, 9, 0.5)",
+                    backgroundColor: "rgba(255, 5, 9, 0.5)",
+                },
+                {
+                    borderColor: "rgba(5, 42, 255, 0.5)",
+                    backgroundColor: "rgba(5, 42, 255, 0.5)",
+                },
+                {
+                    borderColor: "rgba(5, 255, 78, 0.5)",
+                    backgroundColor: "rgba(5, 255, 78, 0.5)",
+                },
+            ];
+            for (let i = 0; i < normaldata.amperage.length; i++) {
+                power.push({
+                    label: "power " + i,
+                    data: [] as CharLineDate[],
+                    borderColor: colors[i].borderColor,
+                    backgroundColor: colors[i].backgroundColor,
+                });
+
+                for (let j = 0; j < normaldata.amperage[i].data.length; j++) {
+                    console.log(j);
+                    power[i].data.push({
+                        dateTime: normaldata.amperage[i].data[j].dateTime,
+                        value: Number(
+                            (
+                                normaldata.amperage[i].data[j].value *
+                                normaldata.voltage[i].data[j].value *
+                                cosinusF.data[j].value
+                            ).toFixed(3)
+                        ),
+                    });
+                }
+            }
+
+            normaldata.cosinusF = [cosinusF];
+            normaldata.power = power;
+
+            setThreePhase(normaldata);
         }
     };
 
@@ -121,25 +186,49 @@ export const ThreePhase = () => {
     }, []);
 
     return (
-        <Row gutter={[24, 24]} style={{ width: "100%" }}>
-            <Col span={12}>
-                {singlaPhase?.voltage && (
-                    <CharLine
-                        data={singlaPhase.voltage}
-                        className="page-dashboard__line"
-                        title="voltage"
-                    />
+        <div className="ThreePhase">
+            <Title level={3} className="SinglePhase__title">
+                {GOST}
+            </Title>
+            <Row gutter={[24, 24]} style={{ width: "100%" }}>
+                <Col span={12}>
+                    {singlaPhase?.voltage && (
+                        <CharLine
+                            data={singlaPhase.voltage}
+                            className="page-dashboard__line"
+                            title="voltage"
+                        />
+                    )}
+                </Col>
+                <Col span={12}>
+                    {singlaPhase?.amperage && (
+                        <CharLine
+                            data={singlaPhase?.amperage}
+                            className="page-dashboard__line"
+                            title="amperage"
+                        />
+                    )}
+                </Col>
+
+                {singlaPhase?.cosinusF && (
+                    <Col span={12}>
+                        <CharLine
+                            data={singlaPhase.cosinusF}
+                            className="page-dashboard__line"
+                            title="cosinusF"
+                        />
+                    </Col>
                 )}
-            </Col>
-            <Col span={12}>
-                {singlaPhase?.amperage && (
-                    <CharLine
-                        data={singlaPhase?.amperage}
-                        className="page-dashboard__line"
-                        title="amperage"
-                    />
+                {singlaPhase?.power && (
+                    <Col span={12}>
+                        <CharLine
+                            data={singlaPhase.power}
+                            className="page-dashboard__line"
+                            title="power"
+                        />
+                    </Col>
                 )}
-            </Col>
-        </Row>
+            </Row>
+        </div>
     );
 };

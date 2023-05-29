@@ -1,5 +1,6 @@
 import { StringifyOptions } from "querystring";
 import { CharLineDate } from "./CharLineTypes";
+import toRna from "./consts";
 
 export const sortByDate = (data: CharLineDate[]) =>
     data.sort(
@@ -19,7 +20,8 @@ export const convertCharLineDateToOneDataset = (
     borderColor?: string,
     backgroundColor?: string
 ) => ({
-    label: label,
+    //label: label,
+    label: toRna(label),
     data: data,
     borderColor: borderColor || "rgba(140, 0, 255, 0.5)",
     backgroundColor: backgroundColor || "rgba(140, 0, 255,0.5)",
@@ -76,7 +78,8 @@ export const getTableRows = (data: {
     }[];
 }) => {
     const getRow = (time: string, index: number) => {
-        const keys = [...data.datasets.map((el) => el.label)] as const;
+        // const keys = [...data.datasets.map((el, i) => el.label)] as const;
+        const keys = [...data.datasets.map((el, i) => i)] as const;
 
         const init = { key: String(index) } as Record<
             string,
@@ -99,15 +102,17 @@ export const getTableRows = (data: {
 export const getTableColumns = (
     data: {
         label: string;
-        data: number[];
-        borderColor: string;
-        backgroundColor: string;
+        info: CharLineDate[];
+        borderColor: string | undefined;
+        backgroundColor: string | undefined;
     }[]
 ) =>
-    data.map((el) => ({
-        title: el.label,
-        dataIndex: el.label,
-        key: el.label,
+    data.map((el, i) => ({
+        title: toRna(el.label, true),
+        dataIndex: String(i),
+        key: String(i),
+        // dataIndex: el.label,
+        // key: el.label,
     }));
 
 type FilterDataByTime = {
@@ -126,3 +131,7 @@ export const filterDataByTime = ({ requiredDate, info }: FilterDataByTime) => {
 
     // data.map((el) => ({
 };
+
+// export const convertDatasetToRussian = (englishName: string) => {
+//     con;
+// };

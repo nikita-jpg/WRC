@@ -1,4 +1,5 @@
-import { Col, Row } from "antd";
+import { Col, Row, Typography } from "antd";
+
 import axios from "axios";
 
 import {
@@ -21,6 +22,7 @@ import {
 } from "../../controllers/getSinglePhase";
 
 import "./SinglePhase.scss";
+import { GOST } from "../../consts";
 
 ChartJS.register(
     CategoryScale,
@@ -81,6 +83,7 @@ const mapGetSinglePhaseToChartLine = (data: GetSinglePhaseResponce[]) => {
 
 export const SinglePhase = () => {
     const [singlaPhase, setSinglePhase] = useState<SinglePhaseCharLine>();
+    const { Title } = Typography;
 
     const requestGetData = async () => {
         const data = await getSinglePhase();
@@ -97,137 +100,142 @@ export const SinglePhase = () => {
     }, []);
 
     return (
-        <Row gutter={[24, 24]} style={{ width: "100%" }}>
-            <Col span={12}>
-                {singlaPhase?.voltage && (
-                    <CharLine
-                        data={[
-                            {
-                                label: "voltage",
-                                data: singlaPhase?.voltage,
-                            },
-                            {
-                                label: "voltage max",
-                                data: singlaPhase?.voltage.map((el) => ({
-                                    dateTime: el.dateTime,
-                                    value: 220,
-                                })),
-                                borderColor: "rgba(255, 5, 9, 0.5)",
-                                backgroundColor: "rgba(255, 5, 9, 0.5)",
-                            },
-                            {
-                                label: "voltage min",
-                                data: singlaPhase?.voltage.map((el) => ({
-                                    dateTime: el.dateTime,
-                                    value: 198,
-                                })),
-                                borderColor: "rgba(0, 34, 255, 0.5)",
-                                backgroundColor: "rgba(0, 34, 255, 0.5)",
-                            },
-                        ]}
-                        className="page-dashboard__line"
-                        title="voltage"
-                    />
-                )}
-            </Col>
-            <Col span={12}>
-                {singlaPhase?.amperage && (
-                    <CharLine
-                        data={[
-                            {
-                                label: "amperage",
-                                data: singlaPhase?.amperage,
-                            },
-                        ]}
-                        className="page-dashboard__line"
-                        title="amperage"
-                    />
-                )}
-            </Col>
-            <Col span={12}>
-                {singlaPhase?.power && (
-                    <CharLine
-                        data={[
-                            {
-                                label: "power",
-                                data: singlaPhase?.power,
-                            },
-                        ]}
-                        className="page-dashboard__line"
-                        title="power"
-                    />
-                )}
-            </Col>
-            <Col span={12}>
-                {singlaPhase?.RPower && (
-                    <CharLine
-                        data={[
-                            {
-                                label: "RPower",
-                                data: singlaPhase?.RPower,
-                            },
-                        ]}
-                        className="page-dashboard__line"
-                        title="RPower"
-                    />
-                )}
-            </Col>
-            <Col span={12}>
-                {singlaPhase?.FPower && (
-                    <CharLine
-                        data={[
-                            {
-                                label: "FPower",
-                                data: singlaPhase?.FPower,
-                            },
-                        ]}
-                        className="page-dashboard__line"
-                        title="FPower"
-                    />
-                )}
-            </Col>
-            <Col span={12}>
-                {singlaPhase?.Ku && (
-                    <CharLine
-                        data={[
-                            {
-                                label: "Ku",
-                                data: singlaPhase?.Ku,
-                            },
-                        ]}
-                        className="page-dashboard__line"
-                        title="Ku"
-                    />
-                )}
-            </Col>
-            <Col span={12}>
-                {singlaPhase?.Ki && (
-                    <CharLine
-                        data={[
-                            {
-                                label: "Ki",
-                                data: singlaPhase?.Ki,
-                            },
-                        ]}
-                        className="page-dashboard__line"
-                        title="Ki"
-                    />
-                )}
-            </Col>
-            <Col span={12}>
-                {singlaPhase?.Kp && (
-                    <CharLine
-                        data={[
-                            {
-                                label: "Kp",
-                                data: singlaPhase?.Kp,
-                            },
-                        ]}
-                        className="page-dashboard__line"
-                        title="Kp"
-                    />
-                )}
-            </Col>
-        </Row>
+        <div>
+            <Title level={3} className="SinglePhase__title">
+                {GOST}
+            </Title>
+            <Row gutter={[24, 24]} style={{ width: "100%" }}>
+                <Col span={12}>
+                    {singlaPhase?.voltage && (
+                        <CharLine
+                            data={[
+                                {
+                                    label: "voltage",
+                                    data: singlaPhase?.voltage,
+                                },
+                                {
+                                    label: "voltage max",
+                                    data: singlaPhase?.voltage.map((el) => ({
+                                        dateTime: el.dateTime,
+                                        value: 220,
+                                    })),
+                                    borderColor: "rgba(255, 5, 9, 0.5)",
+                                    backgroundColor: "rgba(255, 5, 9, 0.5)",
+                                },
+                                {
+                                    label: "voltage min",
+                                    data: singlaPhase?.voltage.map((el) => ({
+                                        dateTime: el.dateTime,
+                                        value: 198,
+                                    })),
+                                    borderColor: "rgba(0, 34, 255, 0.5)",
+                                    backgroundColor: "rgba(0, 34, 255, 0.5)",
+                                },
+                            ]}
+                            className="page-dashboard__line"
+                            title="voltage"
+                        />
+                    )}
+                </Col>
+                <Col span={12}>
+                    {singlaPhase?.amperage && (
+                        <CharLine
+                            data={[
+                                {
+                                    label: "amperage",
+                                    data: singlaPhase?.amperage,
+                                },
+                            ]}
+                            className="page-dashboard__line"
+                            title="amperage"
+                        />
+                    )}
+                </Col>
+                <Col span={12}>
+                    {singlaPhase?.power && (
+                        <CharLine
+                            data={[
+                                {
+                                    label: "power",
+                                    data: singlaPhase?.power,
+                                },
+                            ]}
+                            className="page-dashboard__line"
+                            title="power"
+                        />
+                    )}
+                </Col>
+                <Col span={12}>
+                    {singlaPhase?.RPower && (
+                        <CharLine
+                            data={[
+                                {
+                                    label: "RPower",
+                                    data: singlaPhase?.RPower,
+                                },
+                            ]}
+                            className="page-dashboard__line"
+                            title="RPower"
+                        />
+                    )}
+                </Col>
+                <Col span={12}>
+                    {singlaPhase?.FPower && (
+                        <CharLine
+                            data={[
+                                {
+                                    label: "FPower",
+                                    data: singlaPhase?.FPower,
+                                },
+                            ]}
+                            className="page-dashboard__line"
+                            title="FPower"
+                        />
+                    )}
+                </Col>
+                <Col span={12}>
+                    {singlaPhase?.Ku && (
+                        <CharLine
+                            data={[
+                                {
+                                    label: "Ku",
+                                    data: singlaPhase?.Ku,
+                                },
+                            ]}
+                            className="page-dashboard__line"
+                            title="Ku"
+                        />
+                    )}
+                </Col>
+                <Col span={12}>
+                    {singlaPhase?.Ki && (
+                        <CharLine
+                            data={[
+                                {
+                                    label: "Ki",
+                                    data: singlaPhase?.Ki,
+                                },
+                            ]}
+                            className="page-dashboard__line"
+                            title="Ki"
+                        />
+                    )}
+                </Col>
+                <Col span={12}>
+                    {singlaPhase?.Kp && (
+                        <CharLine
+                            data={[
+                                {
+                                    label: "Kp",
+                                    data: singlaPhase?.Kp,
+                                },
+                            ]}
+                            className="page-dashboard__line"
+                            title="Kp"
+                        />
+                    )}
+                </Col>
+            </Row>
+        </div>
     );
 };

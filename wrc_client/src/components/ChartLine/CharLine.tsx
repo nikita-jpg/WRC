@@ -24,6 +24,7 @@ import {
 } from "./utils";
 
 import "./CharLine.scss";
+import toRna from "./consts";
 
 ChartJS.register(
     CategoryScale,
@@ -63,7 +64,8 @@ export const CharLine = (props: CharLineProps) => {
             },
             title: {
                 display: true,
-                text: title || "",
+                text: toRna(title || "", true),
+                //text: title,
             },
         },
     };
@@ -102,7 +104,7 @@ export const CharLine = (props: CharLineProps) => {
 
     const [open, setOpen] = useState(false);
 
-    const columns = getTableColumns(datasets.datasets);
+    const columns = getTableColumns(labelInfoData);
     const dataSource = getTableRows(datasets);
 
     const onChange: DatePickerProps["onChange"] = (date, dateString) =>
@@ -128,7 +130,7 @@ export const CharLine = (props: CharLineProps) => {
             </div>
             <Table dataSource={dataSource} columns={columns} />
             <Modal
-                title={title || ""}
+                // title={title || ""}
                 centered
                 open={open}
                 onOk={() => setOpen(false)}
