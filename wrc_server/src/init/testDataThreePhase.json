@@ -1,0 +1,1362 @@
+[
+  {
+    "date": "14.07.2011",
+    "time": "17:10:20",
+    "voltage1": "220,16",
+    "amperage1": "0,24",
+    "voltage2": "218,40",
+    "amperage2": "0,30",
+    "voltage3": "221,63",
+    "amperage3": "0,33"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:22",
+    "voltage1": "220,30",
+    "amperage1": "0,24",
+    "voltage2": "218,38",
+    "amperage2": "0,30",
+    "voltage3": "221,58",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:24",
+    "voltage1": "220,33",
+    "amperage1": "0,24",
+    "voltage2": "218,30",
+    "amperage2": "0,30",
+    "voltage3": "221,45",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:26",
+    "voltage1": "220,50",
+    "amperage1": "0,24",
+    "voltage2": "218,31",
+    "amperage2": "0,30",
+    "voltage3": "221,57",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:28",
+    "voltage1": "220,47",
+    "amperage1": "0,25",
+    "voltage2": "218,27",
+    "amperage2": "0,30",
+    "voltage3": "221,44",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:30",
+    "voltage1": "220,25",
+    "amperage1": "0,24",
+    "voltage2": "218,42",
+    "amperage2": "0,30",
+    "voltage3": "221,55",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:32",
+    "voltage1": "220,13",
+    "amperage1": "0,25",
+    "voltage2": "218,40",
+    "amperage2": "0,30",
+    "voltage3": "221,56",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:34",
+    "voltage1": "220,21",
+    "amperage1": "0,24",
+    "voltage2": "218,42",
+    "amperage2": "0,30",
+    "voltage3": "221,71",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:36",
+    "voltage1": "220,15",
+    "amperage1": "0,24",
+    "voltage2": "218,40",
+    "amperage2": "0,30",
+    "voltage3": "221,66",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:38",
+    "voltage1": "220,05",
+    "amperage1": "0,24",
+    "voltage2": "218,45",
+    "amperage2": "0,30",
+    "voltage3": "221,65",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:40",
+    "voltage1": "219,92",
+    "amperage1": "0,25",
+    "voltage2": "218,41",
+    "amperage2": "0,30",
+    "voltage3": "221,55",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:42",
+    "voltage1": "219,95",
+    "amperage1": "0,25",
+    "voltage2": "218,28",
+    "amperage2": "0,30",
+    "voltage3": "221,36",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:44",
+    "voltage1": "219,95",
+    "amperage1": "0,24",
+    "voltage2": "218,34",
+    "amperage2": "0,30",
+    "voltage3": "221,31",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:46",
+    "voltage1": "220,18",
+    "amperage1": "0,25",
+    "voltage2": "218,45",
+    "amperage2": "0,30",
+    "voltage3": "221,39",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:48",
+    "voltage1": "220,20",
+    "amperage1": "0,24",
+    "voltage2": "218,49",
+    "amperage2": "0,30",
+    "voltage3": "221,39",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:50",
+    "voltage1": "220,23",
+    "amperage1": "0,25",
+    "voltage2": "218,43",
+    "amperage2": "0,30",
+    "voltage3": "221,55",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:52",
+    "voltage1": "219,96",
+    "amperage1": "0,25",
+    "voltage2": "218,12",
+    "amperage2": "0,30",
+    "voltage3": "221,31",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:54",
+    "voltage1": "219,84",
+    "amperage1": "0,24",
+    "voltage2": "218,00",
+    "amperage2": "0,30",
+    "voltage3": "221,25",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:56",
+    "voltage1": "220,09",
+    "amperage1": "0,25",
+    "voltage2": "218,34",
+    "amperage2": "0,30",
+    "voltage3": "221,56",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:10:58",
+    "voltage1": "219,98",
+    "amperage1": "0,25",
+    "voltage2": "218,24",
+    "amperage2": "0,30",
+    "voltage3": "221,49",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:00",
+    "voltage1": "219,86",
+    "amperage1": "0,25",
+    "voltage2": "218,22",
+    "amperage2": "0,30",
+    "voltage3": "221,45",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:02",
+    "voltage1": "219,84",
+    "amperage1": "0,25",
+    "voltage2": "218,24",
+    "amperage2": "0,30",
+    "voltage3": "221,45",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:04",
+    "voltage1": "219,92",
+    "amperage1": "0,24",
+    "voltage2": "218,29",
+    "amperage2": "0,30",
+    "voltage3": "221,60",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:06",
+    "voltage1": "219,73",
+    "amperage1": "0,24",
+    "voltage2": "218,30",
+    "amperage2": "0,30",
+    "voltage3": "221,59",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:08",
+    "voltage1": "220,06",
+    "amperage1": "0,24",
+    "voltage2": "218,32",
+    "amperage2": "0,30",
+    "voltage3": "221,64",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:10",
+    "voltage1": "219,98",
+    "amperage1": "0,25",
+    "voltage2": "218,10",
+    "amperage2": "0,30",
+    "voltage3": "221,35",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:12",
+    "voltage1": "220,14",
+    "amperage1": "0,25",
+    "voltage2": "218,16",
+    "amperage2": "0,30",
+    "voltage3": "221,35",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:14",
+    "voltage1": "220,13",
+    "amperage1": "0,25",
+    "voltage2": "218,13",
+    "amperage2": "0,30",
+    "voltage3": "221,26",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:16",
+    "voltage1": "219,87",
+    "amperage1": "0,24",
+    "voltage2": "218,02",
+    "amperage2": "0,30",
+    "voltage3": "221,14",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:18",
+    "voltage1": "219,97",
+    "amperage1": "0,24",
+    "voltage2": "217,93",
+    "amperage2": "0,30",
+    "voltage3": "221,14",
+    "amperage3": "0,33"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:20",
+    "voltage1": "219,98",
+    "amperage1": "0,24",
+    "voltage2": "218,03",
+    "amperage2": "0,30",
+    "voltage3": "221,17",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:22",
+    "voltage1": "220,03",
+    "amperage1": "0,25",
+    "voltage2": "218,08",
+    "amperage2": "0,29",
+    "voltage3": "221,19",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:24",
+    "voltage1": "220,01",
+    "amperage1": "0,24",
+    "voltage2": "217,94",
+    "amperage2": "0,30",
+    "voltage3": "221,07",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:26",
+    "voltage1": "220,08",
+    "amperage1": "0,24",
+    "voltage2": "218,03",
+    "amperage2": "0,30",
+    "voltage3": "221,16",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:28",
+    "voltage1": "220,05",
+    "amperage1": "0,24",
+    "voltage2": "218,01",
+    "amperage2": "0,30",
+    "voltage3": "221,26",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:30",
+    "voltage1": "219,81",
+    "amperage1": "0,24",
+    "voltage2": "217,83",
+    "amperage2": "0,30",
+    "voltage3": "221,02",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:32",
+    "voltage1": "219,67",
+    "amperage1": "0,25",
+    "voltage2": "217,73",
+    "amperage2": "0,30",
+    "voltage3": "220,92",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:34",
+    "voltage1": "219,74",
+    "amperage1": "0,25",
+    "voltage2": "217,89",
+    "amperage2": "0,30",
+    "voltage3": "221,00",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:36",
+    "voltage1": "219,51",
+    "amperage1": "0,25",
+    "voltage2": "217,76",
+    "amperage2": "0,30",
+    "voltage3": "220,81",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:38",
+    "voltage1": "219,51",
+    "amperage1": "0,24",
+    "voltage2": "217,76",
+    "amperage2": "0,30",
+    "voltage3": "220,69",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:40",
+    "voltage1": "219,56",
+    "amperage1": "0,25",
+    "voltage2": "217,84",
+    "amperage2": "0,30",
+    "voltage3": "220,69",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:42",
+    "voltage1": "219,82",
+    "amperage1": "0,25",
+    "voltage2": "217,93",
+    "amperage2": "0,30",
+    "voltage3": "220,80",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:44",
+    "voltage1": "219,72",
+    "amperage1": "0,25",
+    "voltage2": "217,93",
+    "amperage2": "0,30",
+    "voltage3": "220,83",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:46",
+    "voltage1": "219,75",
+    "amperage1": "0,24",
+    "voltage2": "217,91",
+    "amperage2": "0,30",
+    "voltage3": "220,87",
+    "amperage3": "0,33"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:48",
+    "voltage1": "219,91",
+    "amperage1": "0,25",
+    "voltage2": "218,03",
+    "amperage2": "0,30",
+    "voltage3": "220,94",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:50",
+    "voltage1": "220,07",
+    "amperage1": "0,25",
+    "voltage2": "218,15",
+    "amperage2": "0,30",
+    "voltage3": "221,12",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:52",
+    "voltage1": "220,11",
+    "amperage1": "0,24",
+    "voltage2": "218,21",
+    "amperage2": "0,30",
+    "voltage3": "221,25",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:54",
+    "voltage1": "220,01",
+    "amperage1": "0,25",
+    "voltage2": "218,03",
+    "amperage2": "0,30",
+    "voltage3": "221,10",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:56",
+    "voltage1": "219,76",
+    "amperage1": "0,25",
+    "voltage2": "217,75",
+    "amperage2": "0,30",
+    "voltage3": "220,95",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:11:58",
+    "voltage1": "219,97",
+    "amperage1": "0,25",
+    "voltage2": "217,99",
+    "amperage2": "0,30",
+    "voltage3": "221,08",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:12:00",
+    "voltage1": "220,01",
+    "amperage1": "0,24",
+    "voltage2": "218,04",
+    "amperage2": "0,30",
+    "voltage3": "221,22",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:12:02",
+    "voltage1": "219,88",
+    "amperage1": "0,25",
+    "voltage2": "218,08",
+    "amperage2": "0,30",
+    "voltage3": "221,08",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:12:04",
+    "voltage1": "219,99",
+    "amperage1": "0,25",
+    "voltage2": "218,17",
+    "amperage2": "0,30",
+    "voltage3": "221,15",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:12:06",
+    "voltage1": "220,08",
+    "amperage1": "0,24",
+    "voltage2": "218,31",
+    "amperage2": "0,30",
+    "voltage3": "221,36",
+    "amperage3": "0,33"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:12:08",
+    "voltage1": "220,00",
+    "amperage1": "0,25",
+    "voltage2": "218,25",
+    "amperage2": "0,29",
+    "voltage3": "221,16",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:12:10",
+    "voltage1": "220,08",
+    "amperage1": "0,24",
+    "voltage2": "218,28",
+    "amperage2": "0,30",
+    "voltage3": "221,13",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:12:12",
+    "voltage1": "220,08",
+    "amperage1": "0,24",
+    "voltage2": "218,30",
+    "amperage2": "0,30",
+    "voltage3": "221,24",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:12:14",
+    "voltage1": "220,15",
+    "amperage1": "0,24",
+    "voltage2": "218,34",
+    "amperage2": "0,30",
+    "voltage3": "221,20",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:12:20",
+    "voltage1": "220,03",
+    "amperage1": "0,24",
+    "voltage2": "218,12",
+    "amperage2": "0,30",
+    "voltage3": "221,03",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:12:30",
+    "voltage1": "219,91",
+    "amperage1": "0,24",
+    "voltage2": "217,87",
+    "amperage2": "0,30",
+    "voltage3": "220,80",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:12:40",
+    "voltage1": "220,17",
+    "amperage1": "0,25",
+    "voltage2": "218,18",
+    "amperage2": "0,30",
+    "voltage3": "221,14",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:12:50",
+    "voltage1": "220,02",
+    "amperage1": "0,24",
+    "voltage2": "218,05",
+    "amperage2": "0,30",
+    "voltage3": "221,06",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:13:00",
+    "voltage1": "220,07",
+    "amperage1": "0,24",
+    "voltage2": "218,03",
+    "amperage2": "0,30",
+    "voltage3": "221,09",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:13:10",
+    "voltage1": "219,95",
+    "amperage1": "0,25",
+    "voltage2": "217,88",
+    "amperage2": "0,30",
+    "voltage3": "220,99",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:13:20",
+    "voltage1": "220,09",
+    "amperage1": "0,24",
+    "voltage2": "218,18",
+    "amperage2": "0,30",
+    "voltage3": "221,41",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:13:30",
+    "voltage1": "220,16",
+    "amperage1": "0,24",
+    "voltage2": "218,17",
+    "amperage2": "0,30",
+    "voltage3": "221,33",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:13:40",
+    "voltage1": "219,64",
+    "amperage1": "0,25",
+    "voltage2": "217,89",
+    "amperage2": "0,30",
+    "voltage3": "220,94",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:13:50",
+    "voltage1": "220,14",
+    "amperage1": "0,24",
+    "voltage2": "218,27",
+    "amperage2": "0,30",
+    "voltage3": "221,39",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:14:00",
+    "voltage1": "219,85",
+    "amperage1": "0,24",
+    "voltage2": "217,85",
+    "amperage2": "0,30",
+    "voltage3": "220,92",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:14:10",
+    "voltage1": "219,66",
+    "amperage1": "0,24",
+    "voltage2": "217,80",
+    "amperage2": "0,30",
+    "voltage3": "220,82",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:14:20",
+    "voltage1": "219,74",
+    "amperage1": "0,24",
+    "voltage2": "217,85",
+    "amperage2": "0,30",
+    "voltage3": "220,29",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:14:30",
+    "voltage1": "219,54",
+    "amperage1": "0,24",
+    "voltage2": "217,98",
+    "amperage2": "0,30",
+    "voltage3": "220,39",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:14:40",
+    "voltage1": "219,87",
+    "amperage1": "0,25",
+    "voltage2": "218,04",
+    "amperage2": "0,30",
+    "voltage3": "220,60",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:14:50",
+    "voltage1": "219,83",
+    "amperage1": "0,25",
+    "voltage2": "218,01",
+    "amperage2": "0,30",
+    "voltage3": "220,48",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:15:00",
+    "voltage1": "220,14",
+    "amperage1": "0,24",
+    "voltage2": "218,18",
+    "amperage2": "0,30",
+    "voltage3": "221,08",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:15:10",
+    "voltage1": "220,27",
+    "amperage1": "0,24",
+    "voltage2": "218,38",
+    "amperage2": "0,30",
+    "voltage3": "220,96",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:15:20",
+    "voltage1": "220,40",
+    "amperage1": "0,24",
+    "voltage2": "218,12",
+    "amperage2": "0,30",
+    "voltage3": "221,33",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:15:30",
+    "voltage1": "220,42",
+    "amperage1": "0,24",
+    "voltage2": "218,33",
+    "amperage2": "0,30",
+    "voltage3": "221,53",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:15:40",
+    "voltage1": "220,44",
+    "amperage1": "0,24",
+    "voltage2": "218,34",
+    "amperage2": "0,30",
+    "voltage3": "221,56",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:15:50",
+    "voltage1": "220,41",
+    "amperage1": "0,25",
+    "voltage2": "218,42",
+    "amperage2": "0,30",
+    "voltage3": "221,63",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:16:00",
+    "voltage1": "220,31",
+    "amperage1": "0,24",
+    "voltage2": "218,24",
+    "amperage2": "0,30",
+    "voltage3": "221,29",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:16:10",
+    "voltage1": "220,60",
+    "amperage1": "0,24",
+    "voltage2": "218,53",
+    "amperage2": "0,30",
+    "voltage3": "221,60",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:16:20",
+    "voltage1": "219,96",
+    "amperage1": "0,24",
+    "voltage2": "217,81",
+    "amperage2": "0,30",
+    "voltage3": "221,02",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:16:30",
+    "voltage1": "220,18",
+    "amperage1": "0,24",
+    "voltage2": "218,32",
+    "amperage2": "0,30",
+    "voltage3": "221,32",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:16:40",
+    "voltage1": "220,34",
+    "amperage1": "0,24",
+    "voltage2": "218,39",
+    "amperage2": "0,30",
+    "voltage3": "221,47",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:16:50",
+    "voltage1": "220,54",
+    "amperage1": "0,24",
+    "voltage2": "218,23",
+    "amperage2": "0,30",
+    "voltage3": "221,32",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:17:00",
+    "voltage1": "220,29",
+    "amperage1": "0,24",
+    "voltage2": "218,23",
+    "amperage2": "0,30",
+    "voltage3": "221,29",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:17:10",
+    "voltage1": "220,05",
+    "amperage1": "0,24",
+    "voltage2": "218,00",
+    "amperage2": "0,30",
+    "voltage3": "221,00",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:17:20",
+    "voltage1": "220,38",
+    "amperage1": "0,24",
+    "voltage2": "218,38",
+    "amperage2": "0,30",
+    "voltage3": "221,39",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:17:30",
+    "voltage1": "220,12",
+    "amperage1": "0,25",
+    "voltage2": "218,52",
+    "amperage2": "0,30",
+    "voltage3": "220,66",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:17:40",
+    "voltage1": "220,08",
+    "amperage1": "0,24",
+    "voltage2": "218,43",
+    "amperage2": "0,30",
+    "voltage3": "221,20",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:17:50",
+    "voltage1": "219,84",
+    "amperage1": "0,24",
+    "voltage2": "217,99",
+    "amperage2": "0,30",
+    "voltage3": "220,98",
+    "amperage3": "0,30"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:18:00",
+    "voltage1": "220,16",
+    "amperage1": "0,25",
+    "voltage2": "218,30",
+    "amperage2": "0,30",
+    "voltage3": "221,09",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:18:10",
+    "voltage1": "220,30",
+    "amperage1": "0,25",
+    "voltage2": "218,51",
+    "amperage2": "0,30",
+    "voltage3": "221,27",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:18:20",
+    "voltage1": "220,33",
+    "amperage1": "0,24",
+    "voltage2": "218,68",
+    "amperage2": "0,30",
+    "voltage3": "221,41",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:18:30",
+    "voltage1": "220,16",
+    "amperage1": "0,25",
+    "voltage2": "218,31",
+    "amperage2": "0,30",
+    "voltage3": "221,23",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:18:40",
+    "voltage1": "220,36",
+    "amperage1": "0,24",
+    "voltage2": "218,34",
+    "amperage2": "0,30",
+    "voltage3": "221,41",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:18:50",
+    "voltage1": "220,37",
+    "amperage1": "0,25",
+    "voltage2": "218,55",
+    "amperage2": "0,30",
+    "voltage3": "220,91",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:19:00",
+    "voltage1": "219,75",
+    "amperage1": "0,24",
+    "voltage2": "217,75",
+    "amperage2": "0,30",
+    "voltage3": "220,84",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:19:10",
+    "voltage1": "220,13",
+    "amperage1": "0,25",
+    "voltage2": "218,07",
+    "amperage2": "0,30",
+    "voltage3": "221,10",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:19:20",
+    "voltage1": "220,25",
+    "amperage1": "0,25",
+    "voltage2": "218,21",
+    "amperage2": "0,30",
+    "voltage3": "221,23",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:19:30",
+    "voltage1": "220,10",
+    "amperage1": "0,24",
+    "voltage2": "218,18",
+    "amperage2": "0,30",
+    "voltage3": "221,01",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:19:40",
+    "voltage1": "219,91",
+    "amperage1": "0,25",
+    "voltage2": "218,08",
+    "amperage2": "0,30",
+    "voltage3": "220,41",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:19:50",
+    "voltage1": "220,16",
+    "amperage1": "0,24",
+    "voltage2": "218,19",
+    "amperage2": "0,30",
+    "voltage3": "221,14",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:20:00",
+    "voltage1": "219,87",
+    "amperage1": "0,24",
+    "voltage2": "217,92",
+    "amperage2": "0,30",
+    "voltage3": "220,78",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:20:10",
+    "voltage1": "220,01",
+    "amperage1": "0,25",
+    "voltage2": "217,95",
+    "amperage2": "0,30",
+    "voltage3": "221,07",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:20:20",
+    "voltage1": "219,83",
+    "amperage1": "0,25",
+    "voltage2": "217,91",
+    "amperage2": "0,30",
+    "voltage3": "220,92",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:20:30",
+    "voltage1": "219,67",
+    "amperage1": "0,24",
+    "voltage2": "217,77",
+    "amperage2": "0,30",
+    "voltage3": "220,71",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:20:40",
+    "voltage1": "219,63",
+    "amperage1": "0,24",
+    "voltage2": "217,77",
+    "amperage2": "0,30",
+    "voltage3": "220,66",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:20:50",
+    "voltage1": "219,79",
+    "amperage1": "0,25",
+    "voltage2": "217,94",
+    "amperage2": "0,30",
+    "voltage3": "220,79",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:21:00",
+    "voltage1": "219,70",
+    "amperage1": "0,25",
+    "voltage2": "217,96",
+    "amperage2": "0,30",
+    "voltage3": "220,88",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:21:10",
+    "voltage1": "219,75",
+    "amperage1": "0,25",
+    "voltage2": "217,64",
+    "amperage2": "0,30",
+    "voltage3": "220,77",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:21:20",
+    "voltage1": "219,70",
+    "amperage1": "0,24",
+    "voltage2": "217,62",
+    "amperage2": "0,30",
+    "voltage3": "220,68",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:21:30",
+    "voltage1": "219,87",
+    "amperage1": "0,25",
+    "voltage2": "217,84",
+    "amperage2": "0,30",
+    "voltage3": "220,99",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:21:40",
+    "voltage1": "219,80",
+    "amperage1": "0,25",
+    "voltage2": "217,75",
+    "amperage2": "0,30",
+    "voltage3": "220,81",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:21:50",
+    "voltage1": "219,59",
+    "amperage1": "0,24",
+    "voltage2": "217,44",
+    "amperage2": "0,30",
+    "voltage3": "220,71",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:22:00",
+    "voltage1": "219,91",
+    "amperage1": "0,24",
+    "voltage2": "217,82",
+    "amperage2": "0,30",
+    "voltage3": "220,94",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:22:10",
+    "voltage1": "220,16",
+    "amperage1": "0,24",
+    "voltage2": "217,95",
+    "amperage2": "0,30",
+    "voltage3": "221,27",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:22:20",
+    "voltage1": "219,69",
+    "amperage1": "0,24",
+    "voltage2": "217,72",
+    "amperage2": "0,30",
+    "voltage3": "220,80",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:22:30",
+    "voltage1": "219,64",
+    "amperage1": "0,25",
+    "voltage2": "217,52",
+    "amperage2": "0,30",
+    "voltage3": "220,64",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:22:40",
+    "voltage1": "220,03",
+    "amperage1": "0,12",
+    "voltage2": "217,72",
+    "amperage2": "0,30",
+    "voltage3": "220,99",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:22:50",
+    "voltage1": "220,09",
+    "amperage1": "0,13",
+    "voltage2": "217,84",
+    "amperage2": "0,30",
+    "voltage3": "220,95",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:23:00",
+    "voltage1": "220,09",
+    "amperage1": "0,10",
+    "voltage2": "217,91",
+    "amperage2": "0,30",
+    "voltage3": "221,13",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:23:10",
+    "voltage1": "219,76",
+    "amperage1": "0,10",
+    "voltage2": "217,63",
+    "amperage2": "0,30",
+    "voltage3": "220,60",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:23:20",
+    "voltage1": "219,71",
+    "amperage1": "0,09",
+    "voltage2": "217,54",
+    "amperage2": "0,30",
+    "voltage3": "220,60",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:23:30",
+    "voltage1": "219,85",
+    "amperage1": "0,08",
+    "voltage2": "217,76",
+    "amperage2": "0,30",
+    "voltage3": "220,66",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:23:40",
+    "voltage1": "219,55",
+    "amperage1": "0,08",
+    "voltage2": "217,19",
+    "amperage2": "0,30",
+    "voltage3": "220,09",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:23:50",
+    "voltage1": "219,80",
+    "amperage1": "0,08",
+    "voltage2": "217,56",
+    "amperage2": "0,30",
+    "voltage3": "220,73",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:24:00",
+    "voltage1": "219,83",
+    "amperage1": "0,07",
+    "voltage2": "217,66",
+    "amperage2": "0,30",
+    "voltage3": "220,65",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:24:10",
+    "voltage1": "219,75",
+    "amperage1": "0,08",
+    "voltage2": "217,55",
+    "amperage2": "0,30",
+    "voltage3": "220,62",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:24:20",
+    "voltage1": "219,74",
+    "amperage1": "0,08",
+    "voltage2": "217,82",
+    "amperage2": "0,30",
+    "voltage3": "220,44",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:24:30",
+    "voltage1": "219,32",
+    "amperage1": "0,08",
+    "voltage2": "217,64",
+    "amperage2": "0,30",
+    "voltage3": "220,44",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:24:40",
+    "voltage1": "219,55",
+    "amperage1": "0,08",
+    "voltage2": "217,91",
+    "amperage2": "0,30",
+    "voltage3": "220,37",
+    "amperage3": "0,32"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:24:50",
+    "voltage1": "219,53",
+    "amperage1": "0,08",
+    "voltage2": "217,80",
+    "amperage2": "0,30",
+    "voltage3": "220,21",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:25:00",
+    "voltage1": "219,78",
+    "amperage1": "0,08",
+    "voltage2": "218,09",
+    "amperage2": "0,30",
+    "voltage3": "220,60",
+    "amperage3": "0,31"
+  },
+  {
+    "date": "14.07.2011",
+    "time": "17:25:10",
+    "voltage1": "219,71",
+    "amperage1": "0,08",
+    "voltage2": "217,97",
+    "amperage2": "0,30",
+    "voltage3": "220,42",
+    "amperage3": "0,31"
+  }
+]
